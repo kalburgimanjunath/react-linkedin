@@ -1,3 +1,76 @@
-h1, p {
-  font-family: Lato;
+body {
+  background-color: #eeeeee;
+}
+
+.h7 {
+  font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+  margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+  /* .gedf-main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  } */
+  .gedf-card {
+    margin-bottom: 2.77rem;
+  }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+  content: none;
+  display: none;
+}
+.header {
+  display: flex;
+  /* height: 42px; */
+  /* padding: 10px; */
+}
+.logo_search {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.header_search input {
+  border: none;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 30%;
+  min-width: 300px;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.navbar ul li {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+.navbar ul li a {
+  display: flex;
+  padding: 5px;
+}
+.navbar ul li a span {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+}
+.notification {
+  display: block;
+  width: 100%;
+  clear: both;
 }
